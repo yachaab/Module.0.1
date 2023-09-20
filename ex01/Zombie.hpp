@@ -6,7 +6,7 @@
 /*   By: yachaab <yachaab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 19:00:58 by yachaab           #+#    #+#             */
-/*   Updated: 2023/09/19 19:00:59 by yachaab          ###   ########.fr       */
+/*   Updated: 2023/09/20 15:41:25 by yachaab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,6 @@ private:
     std::string name;
 };
 
-Zombie* zombieHorde( int N, const char* name );
+Zombie* zombieHorde( int N, std::string name );
 
 #endif // ZOMBIE_HPP
