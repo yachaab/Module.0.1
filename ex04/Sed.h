@@ -6,7 +6,7 @@
 /*   By: yachaab <yachaab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 02:36:30 by yachaab           #+#    #+#             */
-/*   Updated: 2023/09/19 15:31:45 by yachaab          ###   ########.fr       */
+/*   Updated: 2023/09/23 00:09:17 by yachaab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ private:
 
 public:
 	Sed();
-	Sed(const char* inFile, const char* target, const char* replace, string outFile);
+	Sed( const char* inFile, const char* target, const char* replace, string outFile );
 	~Sed();
 	void processing();
 };

@@ -6,7 +6,7 @@
 /*   By: yachaab <yachaab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 19:01:46 by yachaab           #+#    #+#             */
-/*   Updated: 2023/09/19 19:01:47 by yachaab          ###   ########.fr       */
+/*   Updated: 2023/09/23 00:10:35 by yachaab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,20 +26,20 @@ void Harl::error()   { std::cout << "[ ERROR ]\nThis is unacceptable! I want to 
 
 void Harl::complain(std::string level)
 {
-	std::string levels[4] = { "debug", "info", "warning", "error" };
+	std::string levels[ 4 ] = { "debug", "info", "warning", "error" };
 	
-	void (Harl::*point[4])() = { &Harl::debug, &Harl::info, &Harl::warning, &Harl::error };;
+	void (Harl::*point[ 4 ])() = { &Harl::debug, &Harl::info, &Harl::warning, &Harl::error };;
 
 	int i (0);
 
 	for ( i = 0; i < 4; ++i )
 	{
-		if ( level.compare(levels[i]) == 0 )
+		if ( level.compare(levels[ i ]) == 0 )
 		{
-			(this->*point[i])();
+			( this->*point[ i ] )();
 			break ;
 		}
 	}
-	if (i >= 4)
+	if ( i >= 4 )
 		std::cout << "invalid argument" << std::endl;
 }

@@ -6,7 +6,7 @@
 /*   By: yachaab <yachaab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 19:00:52 by yachaab           #+#    #+#             */
-/*   Updated: 2023/09/19 19:00:53 by yachaab          ###   ########.fr       */
+/*   Updated: 2023/09/23 00:04:53 by yachaab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int main() {
         return (1);
 
     for (int i = 0; i < N; ++i) {
-        objs[i].announce();
+        objs[ i ].announce();
     }
 
     delete[] objs;

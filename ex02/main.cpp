@@ -6,7 +6,7 @@
 /*   By: yachaab <yachaab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 19:01:10 by yachaab           #+#    #+#             */
-/*   Updated: 2023/09/19 19:01:11 by yachaab          ###   ########.fr       */
+/*   Updated: 2023/09/23 00:05:23 by yachaab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int main() {
     std::string brain ( "HI THIS IS BRAIN" );
-    std::string* stringPTR (&brain);
-    std::string& stringREF (brain);
+    std::string* stringPTR ( &brain );
+    std::string& stringREF ( brain );
 
     std::cout << &brain     << " : " << brain << '\n';
     std::cout << stringPTR  << " : " << *stringPTR << '\n';

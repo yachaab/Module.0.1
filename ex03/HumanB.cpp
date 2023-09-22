@@ -6,13 +6,13 @@
 /*   By: yachaab <yachaab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 19:01:21 by yachaab           #+#    #+#             */
-/*   Updated: 2023/09/19 19:01:22 by yachaab          ###   ########.fr       */
+/*   Updated: 2023/09/23 00:06:10 by yachaab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanB.hpp"
 
-HumanB::HumanB(std::string hName) : name (hName), type (NULL) { return ;}
+HumanB::HumanB( std::string hName ) : name ( hName ), type ( NULL ) { return ;}
 
 HumanB::~HumanB() { return ; }
 

@@ -6,7 +6,7 @@
 /*   By: yachaab <yachaab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 19:01:33 by yachaab           #+#    #+#             */
-/*   Updated: 2023/09/19 19:01:34 by yachaab          ###   ########.fr       */
+/*   Updated: 2023/09/23 00:07:38 by yachaab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,9 @@ private:
     std::string type;
 
 public:
-    Weapon(std::string wType);
+    Weapon( std::string wType );
     const std::string& getType();
-    void setType(std::string Type);
+    void setType( std::string Type );
     ~Weapon();
 };
 

@@ -6,7 +6,7 @@
 /*   By: yachaab <yachaab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 19:01:24 by yachaab           #+#    #+#             */
-/*   Updated: 2023/09/19 19:01:25 by yachaab          ###   ########.fr       */
+/*   Updated: 2023/09/23 00:06:42 by yachaab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ public:
     HumanB( std::string hName );
     ~HumanB();
     void attack() const;
-    void setWeapon(Weapon& wType);
+    void setWeapon( Weapon& wType );
 };
 
 #endif
